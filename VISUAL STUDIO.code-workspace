@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../UAD"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "UAD",
+		"livePreview.defaultPreviewPath": "d:\\VISUAL STUDIO\\WEBSITE.ME\\index.html"
+	}
+}
