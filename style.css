@@ -101,6 +101,11 @@ body{
    margin-bottom: 30px;
    margin-top: 20px;
 }
+
+ .welcome {
+   padding-left: 32px;
+ }
+
 .social a{
    width: 37px;
    height: 37px;
