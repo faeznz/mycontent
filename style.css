@@ -39,8 +39,8 @@ body{
  }
 
  .navbar .logo img {
-   height: 55px;
-   width: 55px;
+   height: 64px;
+   width: 64px;
    background: transparent;
    border: 2px solid #0dbdd0;
    color: #0dbdd0;
@@ -126,7 +126,7 @@ body{
    transition: .4s;
 }
 .container .head-text button{
-   color: #eee;
+   color: #eeeeee;
    background: #0dbdd0;
    font-size: 16px;
    font-weight: 500;
@@ -194,6 +194,22 @@ body{
    margin-bottom: 15px;
  }
 
+ .container3 {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 64px;
+ }
+
+ .container3 .option {
+   margin: 10px;
+ }
+
+ .image-wellcome {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+ }
+
  .iframe-container {
    position: relative;
    width: 100%;
@@ -246,6 +262,8 @@ body{
 
    .navbar .menu-btn {
       display: block;
+      margin: 12px;
+      z-index: 1;
    }
 
 	.nav-list {
@@ -261,6 +279,7 @@ body{
       align-items: center;
       margin-left: -100%;
       transition: all 0.5s ease;
+      z-index: 1;
    }
 
 	.nav-list ul {
@@ -279,6 +298,7 @@ body{
 
    .nav-list.mobile-menu {
       margin-left: 0;
+      z-index: 1;
     }
    
 	.box .col-4 {
@@ -286,4 +306,9 @@ body{
 		float: none;
 		margin-bottom: 20px;
 	}
+
+   .container3{
+      display: block;
+      margin-left: 24px;
+   }
 }
