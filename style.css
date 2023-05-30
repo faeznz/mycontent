@@ -126,22 +126,23 @@ body{
    transition: .4s;
 }
 .container .head-text button{
-   color: #eeeeee;
-   background: #0dbdd0;
+   color: #000000;
+   background: #ffd000;
+   width: 200px;
    font-size: 16px;
    font-weight: 500;
    line-height: 24px;
    padding: 8px 30px;
-   border: 2px solid #0dbdd0;
-   border-radius: 30px;
+   border: 2px solid #ffd000;
+   border-radius: 50px;
    cursor: pointer;
    display: block;
    margin-bottom: 20px;
 }
 .container .head-text button:hover{
    background: transparent;
-   border: 2px solid #0dbdd0;
-   color: #0dbdd0;
+   border: 2px solid #ffd000;
+   color: #ffd000;
    transition: .4s;
 }
 .bottom{
