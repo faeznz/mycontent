@@ -19,12 +19,13 @@ body{
    width: 100%;
    height: 100%;
    min-height: 100vh;
-   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/1.jpg);
+   background: linear-gradient(rgba(9, 1, 37, 0.8), rgba(61, 0, 102, 0.8), rgba(1, 66, 33, 0.8)), url(img/1.jpg);
+   /* background: linear-gradient(135deg, #990060, #3d0066, #006633); */
    background-position: top;
    position: relative;
 }
 
- .navbar {
+ .navbarKu {
    position: absolute;
    padding: 50px;
    display: flex;
@@ -34,15 +35,16 @@ body{
    align-items: center;
  }
 
- .navbar a {
+ .navbarKu a {
    color: #eee;
+   text-decoration: none;
  }
 
- .navbar .logo img {
+ .navbarKu .logo img {
    height: 64px;
    width: 64px;
    background: transparent;
-   border: 2px solid #0dbdd0;
+   border: 2px solid #ffc400;
    color: #0dbdd0;
    border-radius: 50%;
    display: inline-flex;
@@ -52,20 +54,20 @@ body{
    cursor: pointer;
  }
 
- .navbar .nav-list ul {
+ .navbarKu .nav-list ul {
    display: flex;
  }
 
- .navbar .nav-list ul li {
+ .navbarKu .nav-list ul li {
    margin: 0 25px;
    list-style: none;
  }
 
- .navbar .nav-list ul li.active a {
-   color: #0dbdd0;
+ .navbarKu .nav-list ul li.active a {
+   color: #ffc400;
  }
 
- .navbar .menu-btn {
+ .navbarKu .menu-btn {
    display: none;
    position: absolute;
    top: 50px;
@@ -74,7 +76,7 @@ body{
  }
 
 .container{
-   padding: 190px 20px 0px 20px;
+   padding: 240px 20px 0px 20px;
 }
 .container .head-text{
    margin-bottom: 40px;
@@ -93,13 +95,13 @@ body{
    font-size: 17px;
 }
 .container .head-text p{
-   width: 440px;
+   width: 800px;
    max-width: 100%;
    color: #eee;
    font-size: 15px;
    line-height: 1.5;
    margin-bottom: 30px;
-   margin-top: 20px;
+   margin-top: 32px;
 }
 
  .welcome {
@@ -122,18 +124,18 @@ body{
 }
 .social a:hover{
    transform: scale(1.1);
-   background: #0dbdd0;
+   background: #ffc400;
    transition: .4s;
 }
 .container .head-text button{
    color: #000000;
-   background: #ffd000;
+   background: #ffc400;
    width: 200px;
    font-size: 16px;
    font-weight: 500;
    line-height: 24px;
    padding: 8px 30px;
-   border: 2px solid #ffd000;
+   border: 2px solid #ffc400;
    border-radius: 50px;
    cursor: pointer;
    display: block;
@@ -141,8 +143,8 @@ body{
 }
 .container .head-text button:hover{
    background: transparent;
-   border: 2px solid #ffd000;
-   color: #ffd000;
+   border: 2px solid #ffc400;
+   color: #ffc400;
    transition: .4s;
 }
 .bottom{
@@ -202,7 +204,7 @@ body{
  }
 
  .container3 .option {
-   margin: 10px;
+   margin: 30px;
  }
 
  .image-wellcome {
@@ -251,17 +253,17 @@ body{
 	}
 }
 @media screen and (max-width: 768px){
-   .navbar {
+   .navbarKu {
       padding: 0;
    }
 
-   .navbar .logo {
+   .navbarKu .logo {
       position: absolute;
       top: 50px;
       left: 50px;
    }
 
-   .navbar .menu-btn {
+   .navbarKu .menu-btn {
       display: block;
       margin: 12px;
       z-index: 1;
@@ -288,13 +290,13 @@ body{
       flex-direction: column;
    }
 
-	.navbar .nav-list ul li {
+	.navbarKu .nav-list ul li {
       margin: 25px 0px;
       font-size: 1.2em;
    }
 
-   .navbar .nav-list ul li.active a {
-      color: #ffd000;
+   .navbarKu .nav-list ul li.active a {
+      color: #ffc400;
     }
 
    .nav-list.mobile-menu {
